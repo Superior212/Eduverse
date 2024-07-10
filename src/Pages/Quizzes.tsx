@@ -1,5 +1,11 @@
+import ComingSoon from "@/components/Coming-Soon";
+
 const Quizzes = () => {
-  return <div>Quizzes</div>;
+  return (
+    <div>
+      <ComingSoon />
+    </div>
+  );
 };
 
 export default Quizzes;

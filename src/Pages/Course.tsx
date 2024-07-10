@@ -1,9 +1,9 @@
-import Show from "@/components/template";
+import ComingSoon from "@/components/Coming-Soon";
 
 const Course = () => {
   return (
     <div>
-      <Show />
+      <ComingSoon />
     </div>
   );
 };
