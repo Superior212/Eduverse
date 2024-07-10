@@ -5,7 +5,7 @@ import { Progress } from "./ui/progress";
 const CourseCard = () => {
   return (
     <div>
-      <h2 className="font-[500] text-lg py-4">Your Courses</h2>
+      <h2 className="font-[500] text-lg pb-4">Your Courses</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {Courses.map((course) => (
           <Card key={course.title} className="">
