@@ -1,5 +1,7 @@
+import AssignmentsCard from "@/components/AssignmentsCard";
 import MonthlyCalender from "@/components/calender";
 import CourseCard from "@/components/courseCard";
+import MessagesCard from "@/components/MessagesCard";
 import WelcomeCard from "@/components/welcomeCard";
 
 const Home = () => {
@@ -9,6 +11,11 @@ const Home = () => {
         <div className="grid gap-0">
           <WelcomeCard />
           <CourseCard />
+
+          <div className="flex flex-col gap-6 md:flex-row md:py-10">
+            <MessagesCard />
+            <AssignmentsCard />
+          </div>
         </div>
         <div className="grid gap-8 border-l">
           <MonthlyCalender />
