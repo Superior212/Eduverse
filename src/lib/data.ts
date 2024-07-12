@@ -17,6 +17,10 @@ import chem from "../assets/images/chem.svg";
 import bio from "../assets/images/bio.svg";
 import maths from "../assets/images/maths.svg";
 
+import MemoMartin from "@/icons/Martin";
+import MemoOdeniran from "@/icons/Odeniran";
+import MemoEniola from "@/icons/Eniola";
+
 export const NavLinks = [
   {
     to: "/",
@@ -82,5 +86,50 @@ export const Courses = [
     chapter: "Chapter 3:Skeletal system",
     image: bio,
     progress: 49,
+  },
+];
+
+export const Messages = [
+  {
+    id: 1,
+    name: "Martin Oyedepo",
+    message: "Please make sure you finish the assig...",
+    time: "10:21 AM",
+    avatar: MemoMartin,
+  },
+  {
+    id: 2,
+    name: "Odeniran Sulaimon",
+    message: "Hello 👋",
+    time: "10:21 AM",
+    avatar: MemoOdeniran,
+  },
+  {
+    id: 1,
+    name: "Eniola Ajao",
+    message: "What do you think about the assign...",
+    time: "19:21 AM",
+    avatar: MemoEniola,
+  },
+];
+
+export const Assignments = [
+  {
+    id: 1,
+    subject: "Biology",
+    dueDate: "19/01/2024",
+    status: "Attempt",
+  },
+  {
+    id: 2,
+    subject: "Economics",
+    dueDate: "17/01/2024",
+    status: "Attempt",
+  },
+  {
+    id: 3,
+    subject: "Agriculture",
+    dueDate: "15/01/2024",
+    status: "Attempted",
   },
 ];
