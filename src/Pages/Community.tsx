@@ -1,4 +1,4 @@
-import ComingSoon from "@/components/Coming-Soon";
+import ComingSoon from "@/components/coming-Soon";
 
 export default function Community() {
   return (

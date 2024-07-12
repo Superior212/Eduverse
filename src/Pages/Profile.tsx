@@ -1,9 +1,11 @@
-import ComingSoon from "@/components/Coming-Soon";
+import ComingSoon from "@/components/coming-Soon";
 
 const Profile = () => {
-  return <div>
-    <ComingSoon />
-  </div>;
+  return (
+    <div>
+      <ComingSoon />
+    </div>
+  );
 };
 
 export default Profile;

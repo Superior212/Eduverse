@@ -2,7 +2,7 @@ import AssignmentsCard from "@/components/AssignmentsCard";
 import MonthlyCalender from "@/components/calender";
 import CourseCard from "@/components/courseCard";
 import MessagesCard from "@/components/MessagesCard";
-import ScheduleCard from "@/components/ScheduleCard";
+import ScheduleCard from "@/components/scheduleCard";
 import WelcomeCard from "@/components/welcomeCard";
 
 const Home = () => {
