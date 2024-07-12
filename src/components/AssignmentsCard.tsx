@@ -3,7 +3,7 @@ import { Card } from "./ui/card";
 
 const AssignmentsCard = () => {
   return (
-    <div className="w-1/2">
+    <div className="sm:w-1/2">
       <div className="space-y-4">
         <h2 className="text-2xl font-[500]">Assignments</h2>
         <Card className="p-3 dark:bg-[#000000]">

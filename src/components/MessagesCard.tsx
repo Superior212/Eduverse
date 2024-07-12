@@ -5,7 +5,7 @@ import MemoEniola from "@/icons/Eniola";
 
 const MessagesCard = () => {
   return (
-    <div className="w-full md:w-1/2">
+    <div className="w-full my-5 sm:my-0 sm:w-1/2">
       <div className="space-y-4">
         <h2 className="text-2xl font-[500]">Your Messages</h2>
         <Card className="p-3 dark:bg-[#000000]">
